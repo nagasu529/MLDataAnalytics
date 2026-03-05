@@ -11,8 +11,11 @@ import statsmodels.stats.multicomp as mc
 
 #%%
 # Load the dataset
-shocks = pd.read_csv("E:/ExportFiles/shocks.csv")     
-shocks_detail = pd.read_csv("E:/ExportFiles/shocks_detail.csv")      
+shocks = pd.read_csv("shocks.csv")
+shocks_detail = pd.read_csv("shocks_detail.csv")
+
+# shocks = pd.read_csv("E:/ExportFiles/shocks.csv")     
+# shocks_detail = pd.read_csv("E:/ExportFiles/shocks_detail.csv")      
 shocks.head()
 print(len(shocks))
 # %%
