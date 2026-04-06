@@ -16,6 +16,7 @@ temp/
 *.xlsx
 *.sql
 *.sqlite3
+*.dta
 
 # ==========================================
 # 3. ภาษา Python และ Streamlit
