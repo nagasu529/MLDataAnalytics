@@ -1,0 +1,57 @@
+digraph Tree {
+graph [rankdir=TB, ranksep=0.50, nodesep=0.58, margin=0.02, pad=0.05, ordering=out, splines=polyline, outputorder=edgesfirst, bgcolor="white", dpi=600, concentrate=false, label="Surrogate Decision Tree (depth = 3, accuracy = 0.933)", labelloc=t, fontsize=27, fontname="DejaVu Sans Bold", size="13.8,9.6!", ratio=compress];
+node [fontname="DejaVu Sans", fontsize=16.2, margin="0.16,0.10", penwidth=1.05, style="rounded,filled", width=1.50, height=0.70, fixedsize=false];
+edge [fontname="DejaVu Sans", fontsize=13, penwidth=1.05, arrowsize=0.52, minlen=0.56, labeldistance=1.05, labelangle=24];
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Overall
+skill &le; 3.68<br/>n = 100.0%<br/>dist = [0.61, 0.39]<br/>class: Low/Mod.>, fillcolor="#fbede2"] ;
+1 [label=<Overall
+skill &le; 3.58<br/>52.9%<br/>[0.98, 0.02]<br/>Low/Mod.>, fillcolor="#f4cbae"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Overall
+skill &le; 3.53<br/>50.3%<br/>[1.0, 0.0]<br/>Low/Mod.>, fillcolor="#f4caac"] ;
+1 -> 2 ;
+3 [label=<48.2%<br/>[1.0, 0.0]<br/>Low/Mod.>, fillcolor="#f4caac"] ;
+2 -> 3 ;
+4 [label=<2.1%<br/>[0.88, 0.12]<br/>Low/Mod.>, fillcolor="#f5d1b7"] ;
+2 -> 4 ;
+5 [label=<Marketing &le; 2.84<br/>2.6%<br/>[0.62, 0.38]<br/>Low/Mod.>, fillcolor="#fbebdf"] ;
+1 -> 5 ;
+6 [label=<0.5%<br/>[0.0, 1.0]<br/>High>, fillcolor="#acd6f4"] ;
+5 -> 6 ;
+7 [label=<2.1%<br/>[0.76, 0.24]<br/>Low/Mod.>, fillcolor="#f7dac5"] ;
+5 -> 7 ;
+8 [label=<Overall
+skill &le; 4.05<br/>47.1%<br/>[0.19, 0.81]<br/>High>, fillcolor="#c0e0f7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Overall
+skill &le; 4.0<br/>17.1%<br/>[0.45, 0.55]<br/>High>, fillcolor="#f0f7fd"] ;
+8 -> 9 ;
+10 [label=<11.1%<br/>[0.29, 0.71]<br/>High>, fillcolor="#cde6f8"] ;
+9 -> 10 ;
+11 [label=<6.0%<br/>[0.76, 0.24]<br/>Low/Mod.>, fillcolor="#f7dbc7"] ;
+9 -> 11 ;
+12 [label=<Marketing &le; 4.16<br/>30.0%<br/>[0.04, 0.96]<br/>High>, fillcolor="#b0d8f4"] ;
+8 -> 12 ;
+13 [label=<16.6%<br/>[0.07, 0.93]<br/>High>, fillcolor="#b2d9f5"] ;
+12 -> 13 ;
+14 [label=<13.3%<br/>[0.02, 0.98]<br/>High>, fillcolor="#aed7f4"] ;
+12 -> 14 ;
+
+0 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+1 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+2 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+5 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+8 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+9 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+12 [fontsize=15.4, margin="0.14,0.09", width=1.40, height=0.66];
+3 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+4 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+6 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+7 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+10 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+11 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+13 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+14 [fontsize=16.0, margin="0.17,0.12", width=1.52, height=0.78];
+}
