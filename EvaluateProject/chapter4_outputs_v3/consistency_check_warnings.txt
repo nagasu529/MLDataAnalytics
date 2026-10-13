@@ -1,0 +1,6 @@
+WARNING | 4.3.1 | หน่วยงานรัฐ | Word = 4.0 | Excel = 2.0
+WARNING | 4.3.1 | ภาคเอกชน/มูลนิธิ | Word = 2.0 | Excel = 4.0
+WARNING | 4.4.3 SRL | SRL 4 | Word = 3.0 | Excel = 2.0
+WARNING | 4.4.3 SRL | SRL 5 | Word = 9.0 | Excel = 10.0
+WARNING | 4.4.3 SRL | SRL 4 (งบรวม ล้านบาท) | Word = 14.58 | Excel = 10.555
+WARNING | 4.4.3 SRL | SRL 5 (งบรวม ล้านบาท) | Word = 35.03 | Excel = 39.04918
